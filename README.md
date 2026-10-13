@@ -1,5 +1,11 @@
 # MarkShot
 
+## 直接运行
+
+下载仓库后运行 `build/Release/MarkShot.exe`，保留同目录的整个 `ocr` 文件夹。
+翻译需将空白模板 `MarkShot.translation.example.ini` 复制为 `MarkShot.translation.ini`，
+在本机填写自己的百度凭据。公开仓库不包含真实账号或密钥。
+
 Windows 原生截图标注工具。该子项目参考 EShot 的交互方式，但不依赖 Qt，
 只使用 Win32、Direct2D、DirectWrite、GDI 和 WIC。
 
