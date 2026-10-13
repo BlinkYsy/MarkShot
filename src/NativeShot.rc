@@ -1,0 +1,7 @@
+#include "resource.h"
+
+// 两个 ICO 均内含 16–256 像素图层：101 保留完整底板，102 仅保留透明前景。
+// 这里直接使用与 resource.h 一致的数值 ID，避免 RC 将符号名保存成
+// 字符串资源，导致 LoadImageW(MAKEINTRESOURCEW(...)) 无法找到图标。
+101 ICON "../assets/NativeShot.ico"
+102 ICON "../assets/NativeShotTray.ico"

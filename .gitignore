@@ -1,0 +1,9 @@
+# 本地翻译凭据不得进入版本库。
+MarkShot.translation.ini
+
+# 本地构建与 Visual Studio 缓存不公开；third_party 内的 OCR 运行库需要保留。
+/build*/
+/.vs/
+*.aps
+*.user
+*.suo
